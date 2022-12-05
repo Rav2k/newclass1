@@ -15,3 +15,9 @@ char* videogames2:: getPublisher(){
 double videogames2::getRating(){
   return rating;
 }
+void videogames2::printStuff(){
+  cout<<title<<endl;
+  cout<<year<<endl;
+  cout<<publisher<<endl;
+  cout<<rating<<endl;
+}
